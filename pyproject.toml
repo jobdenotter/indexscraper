@@ -1,38 +1,12 @@
 [project]
+version = "0.0.11" 
 name = "indexweights"
-version = "0.0.1" 
-description = "A set of tools to scrape and analyze the weights of indices like the NASDAQ-100 index"
-readme = "README.md"  # Optional
+description = "A set of tools to scrape and analyze the weights of indices."
 requires-python = ">=3.7"
-license = "MIT"
-keywords = ["scraping", "nasdaq"]
-
-classifiers = [
-  "Development Status :: 3 - Alpha",
-
-  "Intended Audience :: Developers",
-  "Topic :: Software Development :: Libraries :: Python Modules",
-
-  "License :: OSI Approved :: MIT License",
-
-  "Operating System :: OS Independent",
-
-  "Natural Language :: English",
-
-  "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.7",
-  "Programming Language :: Python :: 3.8",
-  "Programming Language :: Python :: 3.9",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3 :: Only",
-]
-
 dependencies = [
-  "bs4",
-  "selenium"
+  "selenium",
 ]
 
 [build-system]
-requires = ["setuptools>=43.0.0", "wheel"]
+requires = ["setuptools>=62.0.0", "wheel"]
 build-backend = "setuptools.build_meta"

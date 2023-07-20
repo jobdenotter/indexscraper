@@ -1,3 +1,3 @@
 from .index_weight import IndexWeight
 
-from .nasdaq import get_index_data as get_nasdaq_index_data
+from .slickcharts import get_dow_jones_index_data, get_nasdaq_index_data, get_s_and_p_index_data
